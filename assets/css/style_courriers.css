@@ -1,0 +1,131 @@
+body{
+    background-image: url(../images/bg3.png);
+    background-attachment: fixed;
+}
+
+.table{
+    width: 85%;
+    margin: 3rem auto;
+    margin-bottom: 4rem;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.5);
+    background: none;
+    overflow: hidden;
+    border-radius: 20px;
+    border-spacing: 0px;
+    border-color: #f0a925;
+}
+.table-td{
+    max-width: 4rem;
+    max-height: 3rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #ffffff;
+    border-right: 1px solid #f0a92570;
+    border-bottom: 1px solid #f0a92570;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.table-icone{
+    width: 5rem;
+}
+.table-td:last-child{
+    border-right: 0px;
+}
+.table-tr:last-child .table-td{
+    border-bottom: 0px;
+}
+
+.table-td-header{
+    background-color: #f9f2ff;
+    padding: 1rem 0.4rem;
+
+    max-width: 5rem;
+    max-height: 3rem;
+    text-align: center;
+    /* padding: 0.5rem 1rem; */
+    overflow: hidden;
+    
+    /* text-overflow: ellipsis; */
+    border-right: 1px solid #f0a92570;
+    border-bottom: 1px solid #f0a92570;
+    font-size: 0.8rem;
+}
+
+.table-td-header{
+    /* padding: 1.2rem; */
+    /* font-size: 14px; */
+    font-weight: 600;
+    color: #410372;
+}
+
+
+.form{
+    width: 100%;
+}
+
+#corp{
+    width: 90%;
+}
+
+#save_courrier{
+    margin: 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 0rem;
+}
+#annuler-courrier{
+    margin-left: 1rem;
+}
+
+.div-button-form{
+    padding-bottom: 2rem;
+}
+
+/***** Affichage courrier ******/
+.table-affiche{
+    margin: 1rem auto;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.5);
+    /* border-spacing: 4px; */
+    border-radius: 20px;
+    padding: 1rem;
+    width: 70%;
+}
+
+.table-affiche-row{
+    width: 100%;
+}
+.thead{
+    padding-bottom: 3rem;
+}
+.table-affiche-column{
+    text-align: justify;
+    /* background-color: #f9f2ff; */
+    height: 5rem;
+    padding: 1rem;
+    padding-right: 3rem;
+}
+
+.objet-affiche{
+    color: #170128;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.div-pas-de-courrier{
+    margin: 4rem auto;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.5);
+    /* border-spacing: 4px; */
+    border-radius: 20px;
+    padding: 1rem;
+    width: 70%;
+}
+.p-pas-de-courrier{
+    text-align: center;
+}

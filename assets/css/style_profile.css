@@ -1,0 +1,58 @@
+body{
+    background-image: url(../images/bg3.png);
+    background-attachment: fixed;
+}
+
+/******** Form **********/
+
+.form{
+    margin: 2rem auto;
+    min-width: 50%;
+    max-width: 70%;
+    background-color: #f9f2ff;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.5);
+
+}
+.form-group {
+    margin: 2rem;
+    overflow: hidden; 
+    display: flex;
+}
+
+.input{
+    width: 100%;
+    min-width:fit-content;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    box-sizing: border-box;
+    outline: none;
+    background-image: linear-gradient(#f9f2ff, #f9f2ff);
+    font-size: .9rem;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 1px solid #222; 
+}
+
+label{
+    width: 100%;
+    min-width:fit-content;
+    margin-right: 2rem;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+input[disabled]{
+    color: #999;
+}
+select[disabled]{
+    color: #999;
+}
+#save{
+    display: block;
+    margin: 1.5rem auto;
+}
